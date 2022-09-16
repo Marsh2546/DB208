@@ -2,6 +2,6 @@
 
 ## Set up tools
 
-*vscode
-*Git
-*GitHub
+* vscode
+* Git
+* GitHub
