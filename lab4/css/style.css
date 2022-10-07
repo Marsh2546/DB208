@@ -37,6 +37,7 @@ html{
 
 .key.black:active, .pressed {
     transform:translateY(2px);
+    z-index: 1;
 }
 
 .key.white{
