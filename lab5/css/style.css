@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background: #24272e;
+    color:floralwhite;
+    text-align: center;
+}
+header{
+    background-color: aliceblue;
+    padding: 20px;
+}
+header > h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.scoreboard{
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 46px;
+    padding: 15px 20px;
+    position:relative;
+}
+
+.badge{
+    background-color: #E25840;
+    font-size:14px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 2px 10px;
+}
+
+#userlabel{
+    position:absolute;
+    top:30px;
+    left:-25px;
+}
+#complabel{
+    position:absolute;
+    top:30px;
+    right:-25px;
+}
+#result{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:40px;
+    font-weight: bold;
+}
+#stage{
+    margin:50px 0px;
+}
+#stage > img{
+    height: 250px;
+    margin: 0 50px;
+}
+#comp-choice{
+    transform:rotatey(180deg);
+}
+#choice{
+    margin-top:50px;
+}
+.choice{
+    width: 130px;
+    height: 130px;
+    border:4px solid white;
+    border-radius: 50%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+.choice > img{
+    width: 96px;
+}
+.choice:hover{
+    cursor:pointer;
+    background-color: rgb(172, 172, 172);
+    transition: all 0.5s ease;
+}
+#message{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+

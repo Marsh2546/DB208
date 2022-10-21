@@ -1,0 +1,44 @@
+Microsoft Windows [Version 10.0.19044.2130]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DPU>D:
+
+D:\>cd DB209
+
+D:\DB209>git init
+Initialized empty Git repository in D:/DB209/.git/
+
+D:\DB209>git config user.name Marsh2546
+
+D:\DB209>git config user.email phurin.smart2546@gmail.com
+
+D:\DB209>git branch -M main
+
+D:\DB209>git remote add origin git@github.com/Marsh2546/DB208
+
+D:\DB209>git remote remove origin
+
+D:\DB209>git remote add origin git@github.com:Marsh2546/DB208.git
+
+D:\DB209>dir
+ Volume in drive D is DATA
+ Volume Serial Number is B0F7-A565
+
+ Directory of D:\DB209
+
+10/21/2022  09:32 AM    <DIR>          .
+10/21/2022  09:32 AM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  499,942,649,856 bytes free
+
+D:\DB209>git pull origin main
+remote: Enumerating objects: 73, done.
+remote: Counting objects: 100% (73/73), done.
+remote: Compressing objects: 100% (47/47), done.
+remote: Total 73 (delta 18), reused 69 (delta 14), pack-reused 0
+Unpacking objects: 100% (73/73), 3.08 MiB | 580.00 KiB/s, done.
+From github.com:Marsh2546/DB208
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+
+D:\DB209>
