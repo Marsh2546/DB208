@@ -89,6 +89,20 @@ header > h1{
 #message{
     font-family: 'Josefin Sans', sans-serif;
 }
-
+@keyframes ready{
+    0%,100%{
+        top: 0px;
+    }
+    25%{
+        top: -10px;
+    }
+    75%{
+        top: 10px;
+    }
+}
+.ready{
+    position: relative;
+    animation: ready 0.5s linear infinite;
+}
 
 
