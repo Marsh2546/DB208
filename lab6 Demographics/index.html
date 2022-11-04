@@ -99,7 +99,7 @@
           (d) =>
             d.year_save == selectedyear &&
             d.month_save == selectedmonth &&
-            d.name == selectedDname
+            d.dname == selectedDname
         )[0];
         const chart_labels = Array.from({ length: 100 }, (_, i) => i + 1);
         const chart_data = Array.from(chart_labels, (a, _) => focus["age" + a]);
