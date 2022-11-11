@@ -81,8 +81,8 @@
         for (let m of months) {
           month_filter.innerHTML += `<option>${m}</option>`;
         }
+        resetDname();
       }
-      resetDname();
 
       function resetDname() {
         const selectedyear = year_filter.value;
